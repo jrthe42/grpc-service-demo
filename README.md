@@ -5,6 +5,8 @@ This is a example for using [gRPC](http://www.grpc.io/), which is a high perform
 
 This project demonstrates how to write gRPC server and client application using Java. A python client also been proposed to examine the across languages feature of gRPC.
 
+More Details about this project can be found on [my blog](http://blog.jrwang.me/2016/grpc-at-first-view/).
+
 ## how to Build
 
 ### Java server & client
@@ -35,8 +37,8 @@ That's it.
 Install gRPC first:
 
 ```
-$ sudo python -m pip install grpcio
-$ sudo python -m pip install grpcio-tools
+$ sudo pip install grpcio
+$ sudo pip install grpcio-tools
 ```
 
 Generate the Python code using folling commond:
